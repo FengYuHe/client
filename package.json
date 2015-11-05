@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Analog device client",
+  "main": "config.js",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "body-parser": "^1.14.1",
+    "logger": "^0.0.1",
+    "ejs": "^2.3.4",
+    "morgan": "^1.6.1",
+    "express-partials": "^0.3.0",
+    "mosca": "^0.32.1",
+    "express": "^4.13.3",
+    "mqtt": "^1.5.0",
+    "static-favicon": "^2.0.0-alpha",
+    "path": "^0.12.7",
+    "pubnub": "^3.7.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FengYuHe/client"
+  },
+  "keywords": [
+    "client"
+  ],
+  "author": "FengYuHe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FengYuHe/client/issues"
+  },
+  "homepage": "https://github.com/FengYuHe/client"
+}
