@@ -10,6 +10,7 @@ var partials = require('express-partials');
 
 var index = require('./router/index');
 var api = require('./lib/api')
+var deviceApi = require('./lib/deviceApi');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -26,5 +27,6 @@ app.use(bodyParser.json());
 
 app.use('/', index);
 app.use('/api',api);
+app.use('/send',deviceApi);
 
 app.listen('9001');

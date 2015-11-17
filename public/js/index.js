@@ -16,7 +16,7 @@ $(function(){
 		})
 	}
 
-	getListNode();
+	// getListNode();
 
 	$('#activate').click(function(){
 		var data = {};
