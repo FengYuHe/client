@@ -4,18 +4,19 @@
   "description": "Analog device client",
   "main": "config.js",
   "dependencies": {
-    "connect-flash": "^0.1.1",
     "body-parser": "^1.14.1",
-    "logger": "^0.0.1",
+    "connect-flash": "^0.1.1",
     "ejs": "^2.3.4",
-    "morgan": "^1.6.1",
-    "express-partials": "^0.3.0",
-    "mosca": "^0.32.1",
     "express": "^4.13.3",
+    "express-partials": "^0.3.0",
+    "logger": "^0.0.1",
+    "morgan": "^1.6.1",
+    "mosca": "^0.32.1",
     "mqtt": "^1.5.0",
-    "static-favicon": "^2.0.0-alpha",
     "path": "^0.12.7",
-    "pubnub": "^3.7.15"
+    "pubnub": "^3.7.15",
+    "request": "^2.65.0",
+    "static-favicon": "^2.0.0-alpha"
   },
   "devDependencies": {},
   "scripts": {

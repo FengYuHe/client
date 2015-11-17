@@ -1,5 +1,4 @@
 module.exports = {
-	ssl : true,
-	publish_key : "ds",
-	subscribe_key : "ds"
+	token : "stok-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImlkIjoiMjU5MWViZTAtNmU0Zi0xMWU1LThjODEtZmI5MDZjM2I0OTE2IiwidXNlcm5hbWUiOiJmZW5nIiwiZW1haWwiOiJmZW5nQGZlbmcuY29tIiwiYWNjZXNzVG9rZW4iOiJsb2RTb0NweUwya3NJWWhlY25Ibmp3c3hFa2o5aHE5eCJ9LCJpYXQiOjE0NDczODAzNDAsImV4cCI6MTQ0NzQ2Njc0MCwiaXNzIjoiY2xvdWQtc2VydmljZS1iYWNrIn0.EEudJ5F5Chbuhn1WVtpT3ynWXr31owWEpqp9qQgNvy8",
+	mqtt : "mqtt://127.0.0.1:9000"
 }
