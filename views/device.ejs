@@ -4,24 +4,46 @@
     <meta charset="UTF-8">
     <title>device</title>
   <body>
-      <div>
-        <label>deviceId:</label>
-        <input type='text' id='deviceId'>
+    <div class="content">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">deviceId：</label>
+                  <div class="col-md-4">
+                    <input class="form-control" type="text" id='deviceId'>
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">channelId：</label>
+                  <div class="col-md-4">
+                    <input class="form-control" type="text" id='channelId'>
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">params：</label>
+                  <div class="col-md-4">
+                    <textarea class="form-control" type="text" id='pushMessage'></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <div class="col-md-4 col-sm-offset-2">
+                    <button type="button" class="btn btn-primary" id="publish">发送数据</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <br>
-      <div>
-        <label>channelId:</label>
-        <input type='text' id='channelId'>
-      </div>
-      <br>
-      <div>
-        <textarea type='textarea' id='pushMessage'></textarea>
-      </div>
-      <br>
-      <div>
-        <button id="publish">发送数据</button>
-      </div>
+    </div>
   </body>
   <script src="/js/jquery.min.js"></script>
   <script src="/js/device.js"></script>
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </html>

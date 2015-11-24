@@ -1,23 +1,4 @@
 $(function(){
-	var getListNode = function(){
-		var data = {};
-		data.option = "getListNode";
-		data = JSON.stringify(data);
-		$.ajax({
-      		type : "POST",
-      		contentType: "application/json",
-                  url: "/api/activate",
-                  data : data,
-                  cache : false,
-                  async : false,
-                  success : function(res){
-                  	console.log(res);
-                  }
-		})
-	}
-
-	// getListNode();
-
 	$('#activate').click(function(){
 		var data = {};
 		data.option = "activate";
