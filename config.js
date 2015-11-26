@@ -1,4 +1,5 @@
 module.exports = {
-	token : "stok-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImlkIjoiNDQ4YzE1NDAtNWFjMC0xMWU1LWJlNGQtMWRiY2I0MmE5ZmU2IiwidXNlcm5hbWUiOiJib2IiLCJlbWFpbCI6ImJAYmFyLmNvbSIsImFjY2Vzc1Rva2VuIjoiRTdJN0xvaFZyTlJVQ1MxS0ZncHhmOHdIajFGV0lScE4ifSwiaWF0IjoxNDQ3NzI3NjgwLCJleHAiOjE0NDc4MTQwODAsImlzcyI6ImNsb3VkLXNlcnZpY2UtYmFjayJ9.O0Ixz7-TnDC62doPlMGwWSIaZHA0RRBnbt09U1j2xCs",
-	mqtt : "mqtt://127.0.0.1:9000"
+	token : "ntok-271d825d02083e37fbd3fa6d68e614f1",
+	mqtt : "mqtt://127.0.0.1:9000",
+	serviceUrl : "http://localhost:6001/rest/v1"
 }
