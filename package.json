@@ -1,22 +1,24 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "description": "Analog device client",
+  "description": "client",
   "main": "config.js",
   "dependencies": {
     "body-parser": "^1.14.1",
     "connect-flash": "^0.1.1",
     "ejs": "^2.3.4",
-    "express": "^4.13.3",
     "express-partials": "^0.3.0",
-    "logger": "^0.0.1",
+    "express": "^4.13.3",
     "morgan": "^1.6.1",
     "mosca": "^0.32.1",
     "mqtt": "^1.5.0",
-    "path": "^0.12.7",
+    "static-favicon": "^2.0.0-alpha",
     "pubnub": "^3.7.15",
     "request": "^2.65.0",
-    "static-favicon": "^2.0.0-alpha"
+    "logger": "^0.0.1",
+    "path": "^0.12.7",
+    "mqtt-router": "^0.5.0",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,13 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FengYuHe/client"
+    "url": "https://github.com/FengYuHe/client.git"
   },
   "keywords": [
-    "client"
+    "client",
+    "mqqt",
+    "dolink"
   ],
   "author": "FengYuHe",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/FengYuHe/client/issues"
   },
