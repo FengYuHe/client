@@ -11,9 +11,7 @@ describe('service', function(){
 	it('should be get the UserInfo', function(done){
 		request.get(getPushChannelUrl, function(err, result){
 			service.getPushChannel().then(function(res){
-				console.log(result.body);
 				var channel = JSON.parse(result.body).data.pushSettings.channel;
-				console.log(res);
 				(channel).should.be.eql(res);
 				done();
 			})
